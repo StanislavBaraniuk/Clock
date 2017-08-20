@@ -1,0 +1,906 @@
+
+/*media for 480px*/
+@media all and (max-width: 480px){
+    header {
+        width: 100%;
+        height: 150px;
+        background-color: black;
+    }
+
+    #wicon {
+        cursor: pointer;
+        position: absolute;
+        color: white;
+        margin-top: 60px;
+        margin-left: 85%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #wicon:hover {
+        transition: 0.20s;
+        cursor: pointer;
+        position: absolute;
+        border-bottom: 10px dashed red;
+        /*background-color: whitesmoke;*/
+        border-radius: 100%;
+        margin-top: 60px;
+        margin-left: 85%;
+        width: 35px;
+        height: 35px;
+    }
+
+    #sicon {
+        cursor: pointer;
+        position: absolute;
+        color: white;
+        margin-top: 60px;
+        margin-left: 75%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #sicon:hover {
+        transition: 0.20s;
+        cursor: pointer;
+        position: absolute;
+        border-bottom: 8px dashed red;
+        /*background-color: whitesmoke;*/
+        /*border-radius: 100%;*/
+        margin-top: 60px;
+        margin-left: 75%;
+        width: 35px;
+        height: 35px;
+    }
+
+    #time {
+        position: absolute;
+        margin-left: 4%;
+        margin-top: 80px;
+        /*letter-spacing: 1px;*/
+        font-size: 24px;
+        color: white;
+    }
+
+    #name {
+        position: absolute;
+        /*letter-spacing: 2.5px;*/
+        font-size: 36px;
+        margin-left: 4%;
+        margin-top: -3px;
+        color: white;
+    }
+
+    #date {
+        position: absolute;
+        margin-left: 4%;
+        margin-top: 110px;
+        /*letter-spacing: 1px;*/
+        font-size: 24px;
+        color: white;
+    }
+}
+
+
+/*media for 540px*/
+@media all and (max-width: 540px) and (min-width: 481px){
+    header {
+        width: 100%;
+        height: 120px;
+        background-color: black;
+    }
+
+    #wicon {
+        cursor: pointer;
+        position: absolute;
+        color: white;
+        margin-top: 10px;
+        margin-left: 91%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #wicon:hover {
+        transition: 0.20s;
+        cursor: pointer;
+        position: absolute;
+        border-bottom: 10px dashed red;
+        /*background-color: whitesmoke;*/
+        border-radius: 100%;
+        margin-top: 8px;
+        margin-left: 91%;
+        width: 35px;
+        height: 35px;
+    }
+
+    #sicon {
+        cursor: pointer;
+        position: absolute;
+        color: white;
+        margin-top: 10px;
+        margin-left: 85%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #sicon:hover {
+        transition: 0.20s;
+        cursor: pointer;
+        position: absolute;
+        border-bottom: 8px dashed red;
+        /*background-color: whitesmoke;*/
+        /*border-radius: 100%;*/
+        margin-top: 8px;
+        margin-left: 85%;
+        width: 35px;
+        height: 35px;
+    }
+
+    #time {
+        position: absolute;
+        margin-left: 85%;
+        margin-top: 80px;
+        /*letter-spacing: 1px;*/
+        font-size: 24px;
+        color: white;
+    }
+
+    #name {
+        position: absolute;
+        /*letter-spacing: 2.5px;*/
+        font-size: 36px;
+        margin-left: 4%;
+        margin-top: -3px;
+        color: white;
+    }
+
+    #date {
+        position: absolute;
+        margin-left: 4%;
+        margin-top: 80px;
+        /*letter-spacing: 1px;*/
+        font-size: 24px;
+        color: white;
+    }
+}
+
+/*media for 640px*/
+@media all and (max-width: 640px) and (min-width: 541px){
+    header {
+        width: 100%;
+        height: 100px;
+        background-color: black;
+    }
+
+    #wicon {
+        cursor: pointer;
+        position: absolute;
+        color: white;
+        margin-top: 10px;
+        margin-left: 90%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #wicon:hover {
+        transition: 0.20s;
+        cursor: pointer;
+        position: absolute;
+        border-bottom: 10px dashed red;
+        /*background-color: whitesmoke;*/
+        border-radius: 100%;
+        margin-top: 8px;
+        margin-left: 90%;
+        width: 35px;
+        height: 35px;
+    }
+
+    #sicon {
+        cursor: pointer;
+        position: absolute;
+        color: white;
+        margin-top: 10px;
+        margin-left: 85%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #sicon:hover {
+        transition: 0.20s;
+        cursor: pointer;
+        position: absolute;
+        border-bottom: 8px dashed red;
+        /*background-color: whitesmoke;*/
+        /*border-radius: 100%;*/
+        margin-top: 8px;
+        margin-left: 85%;
+        width: 35px;
+        height: 35px;
+    }
+
+    #time {
+        position: absolute;
+        margin-left: 85%;
+        margin-top: 56px;
+        /*letter-spacing: 1px;*/
+        font-size: 24px;
+        color: white;
+    }
+
+    #name {
+        position: absolute;
+        /*letter-spacing: 2.5px;*/
+        font-size: 36px;
+        margin-left: calc(50% - 60px);
+        margin-top: -3px;
+        color: white;
+    }
+
+    #date {
+        position: absolute;
+        margin-left: 5%;
+        margin-top: 56px;
+        /*letter-spacing: 1px;*/
+        font-size: 24px;
+        color: white;
+    }
+}
+
+/*media for 800px*/
+@media all and (max-width: 800px) and (min-width: 641px){
+    header {
+        width: 100%;
+        height: 100px;
+        background-color: black;
+    }
+
+    #wicon {
+        cursor: pointer;
+        position: absolute;
+        color: white;
+        margin-top: 10px;
+        margin-left: 78.6%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #wicon:hover {
+        transition: 0.20s;
+        cursor: pointer;
+        position: absolute;
+        border-bottom: 10px dashed red;
+        /*background-color: whitesmoke;*/
+        border-radius: 100%;
+        margin-top: 8px;
+        margin-left: 78.6%;
+        width: 35px;
+        height: 35px;
+    }
+
+    #sicon {
+        cursor: pointer;
+        position: absolute;
+        color: white;
+        margin-top: 10px;
+        margin-left: 74%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #sicon:hover {
+        transition: 0.20s;
+        cursor: pointer;
+        position: absolute;
+        border-bottom: 8px dashed red;
+        /*background-color: whitesmoke;*/
+        /*border-radius: 100%;*/
+        margin-top: 8px;
+        margin-left: 74%;
+        width: 35px;
+        height: 35px;
+    }
+
+    #time {
+        position: absolute;
+        margin-left: 74%;
+        margin-top: 56px;
+        /*letter-spacing: 1px;*/
+        font-size: 24px;
+        color: white;
+    }
+
+    #name {
+        position: absolute;
+        /*letter-spacing: 2.5px;*/
+        font-size: 36px;
+        margin-left: calc(50% - 60px);
+        margin-top: -3px;
+        color: white;
+    }
+
+    #date {
+        position: absolute;
+        margin-left: 18%;
+        margin-top: 56px;
+        /*letter-spacing: 1px;*/
+        font-size: 24px;
+        color: white;
+    }
+}
+
+
+/*media for 1024px*/
+@media all and (max-width: 1024px) and (min-width: 801px){
+    header {
+        width: 100%;
+        height: 100px;
+        background-color: black;
+    }
+
+    #wicon {
+        cursor: pointer;
+        position: absolute;
+        color: white;
+        margin-top: 10px;
+        margin-left: 77.6%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #wicon:hover {
+        transition: 0.20s;
+        cursor: pointer;
+        position: absolute;
+        border-bottom: 10px dashed red;
+        /*background-color: whitesmoke;*/
+        border-radius: 100%;
+        margin-top: 8px;
+        margin-left: 77.6%;
+        width: 35px;
+        height: 35px;
+    }
+
+    #sicon {
+        cursor: pointer;
+        position: absolute;
+        color: white;
+        margin-top: 10px;
+        margin-left: 74%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #sicon:hover {
+        transition: 0.20s;
+        cursor: pointer;
+        position: absolute;
+        border-bottom: 8px dashed red;
+        /*background-color: whitesmoke;*/
+        /*border-radius: 100%;*/
+        margin-top: 8px;
+        margin-left: 74%;
+        width: 35px;
+        height: 35px;
+    }
+
+    #time {
+        position: absolute;
+        margin-left: 74%;
+        margin-top: 56px;
+        /*letter-spacing: 1px;*/
+        font-size: 24px;
+        color: white;
+    }
+
+    #name {
+        position: absolute;
+        /*letter-spacing: 2.5px;*/
+        font-size: 36px;
+        margin-left: calc(50% - 60px);
+        margin-top: -3px;
+        color: white;
+    }
+
+    #date {
+        position: absolute;
+        margin-left: 18%;
+        margin-top: 56px;
+        /*letter-spacing: 1px;*/
+        font-size: 24px;
+        color: white;
+    }
+}
+
+
+/*media for 1280px*/
+@media all and (max-width: 1280px) and (min-width: 1025px){
+    header {
+        width: 100%;
+        height: 100px;
+        background-color: black;
+    }
+
+    #wicon {
+        cursor: pointer;
+        position: absolute;
+        color: white;
+        margin-top: 10px;
+        margin-left: 76.8%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #wicon:hover {
+        transition: 0.20s;
+        cursor: pointer;
+        position: absolute;
+        border-bottom: 10px dashed red;
+        /*background-color: whitesmoke;*/
+        border-radius: 100%;
+        margin-top: 8px;
+        margin-left: 76.8%;
+        width: 35px;
+        height: 35px;
+    }
+
+    #sicon {
+        cursor: pointer;
+        position: absolute;
+        color: white;
+        margin-top: 10px;
+        margin-left: 74%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #sicon:hover {
+        transition: 0.20s;
+        cursor: pointer;
+        position: absolute;
+        border-bottom: 8px dashed red;
+        /*background-color: whitesmoke;*/
+        /*border-radius: 100%;*/
+        margin-top: 8px;
+        margin-left: 74%;
+        width: 35px;
+        height: 35px;
+    }
+
+    #time {
+        position: absolute;
+        margin-left: 74%;
+        margin-top: 56px;
+        /*letter-spacing: 1px;*/
+        font-size: 24px;
+        color: white;
+    }
+
+    #name {
+        position: absolute;
+        /*letter-spacing: 2.5px;*/
+        font-size: 36px;
+        margin-left: calc(50% - 60px);
+        margin-top: -3px;
+        color: white;
+    }
+
+    #date {
+        position: absolute;
+        margin-left: 18%;
+        margin-top: 56px;
+        /*letter-spacing: 1px;*/
+        font-size: 24px;
+        color: white;
+    }
+}
+
+/*media for 1680px*/
+@media all and (max-width: 1680px) and (min-width: 1281px){
+    header {
+        width: 100%;
+        height: 100px;
+        background-color: black;
+    }
+
+    #wicon {
+        cursor: pointer;
+        position: absolute;
+        color: white;
+        margin-top: 10px;
+        margin-left: 76%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #wicon:hover {
+        transition: 0.20s;
+        cursor: pointer;
+        position: absolute;
+        border-bottom: 10px dashed red;
+        /*background-color: whitesmoke;*/
+        border-radius: 100%;
+        margin-top: 8px;
+        margin-left: 76%;
+        width: 35px;
+        height: 35px;
+    }
+
+    #sicon {
+        cursor: pointer;
+        position: absolute;
+        color: white;
+        margin-top: 10px;
+        margin-left: 74%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #sicon:hover {
+        transition: 0.20s;
+        cursor: pointer;
+        position: absolute;
+        border-bottom: 8px dashed red;
+        /*background-color: whitesmoke;*/
+        /*border-radius: 100%;*/
+        margin-top: 8px;
+        margin-left: 74%;
+        width: 35px;
+        height: 35px;
+    }
+
+    #time {
+        position: absolute;
+        margin-left: 74%;
+        margin-top: 56px;
+        /*letter-spacing: 1px;*/
+        font-size: 24px;
+        color: white;
+    }
+
+    #name {
+        position: absolute;
+        /*letter-spacing: 2.5px;*/
+        font-size: 36px;
+        margin-left: calc(50% - 60px);
+        margin-top: -3px;
+        color: white;
+    }
+
+    #date {
+        position: absolute;
+        margin-left: 18%;
+        margin-top: 56px;
+        /*letter-spacing: 1px;*/
+        font-size: 24px;
+        color: white;
+    }
+}
+
+
+/*media for 1920px*/
+@media all and (max-width: 1920px) and (min-width: 1681px){
+    header {
+        width: 100%;
+        height: 100px;
+        background-color: black;
+    }
+
+    #wicon {
+        cursor: pointer;
+        position: absolute;
+        color: white;
+        margin-top: 10px;
+        margin-left: 69.7%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #wicon:hover {
+        transition: 0.20s;
+        cursor: pointer;
+        position: fixed;
+        border-bottom: 10px dashed red;
+        /*background-color: whitesmoke;*/
+        border-radius: 100%;
+        margin-top: 8px;
+        margin-left: 69.7%;
+        width: 35px;
+        height: 35px;
+    }
+
+    #sicon {
+        cursor: pointer;
+        position: absolute;
+        color: white;
+        margin-top: 10px;
+        margin-left: 67.8%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #sicon:hover {
+        transition: 0.20s;
+        cursor: pointer;
+        position: absolute;
+        border-bottom: 8px dashed red;
+        /*background-color: whitesmoke;*/
+        /*border-radius: 100%;*/
+        margin-top: 8px;
+        margin-left: 67.8%;
+        width: 35px;
+        height: 35px;
+    }
+
+    #time {
+        position: absolute;
+        margin-left: 68%;
+        margin-top: 56px;
+        /*letter-spacing: 1px;*/
+        font-size: 24px;
+        color: white;
+    }
+
+    #name {
+        position: absolute;
+        /*letter-spacing: 2.5px;*/
+        font-size: 36px;
+        margin-left: calc(50% - 60px);
+        margin-top: -3px;
+        color: white;
+    }
+
+    #date {
+        position: absolute;
+        margin-left: 28.7%;
+        margin-top: 56px;
+        /*letter-spacing: 1px;*/
+        font-size: 24px;
+        color: white;
+    }
+}
+
+/*media for 2560px*/
+@media all and (max-width: 2560px) and (min-width: 1921px){
+    header {
+        width: 100%;
+        height: 100px;
+        background-color: black;
+    }
+
+    #wicon {
+        cursor: pointer;
+        position: absolute;
+        color: white;
+        margin-top: 10px;
+        margin-left: 75.4%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #wicon:hover {
+        transition: 0.20s;
+        cursor: pointer;
+        position: absolute;
+        border-bottom: 10px dashed red;
+        /*background-color: whitesmoke;*/
+        border-radius: 100%;
+        margin-top: 8px;
+        margin-left: 75.4%;
+        width: 35px;
+        height: 35px;
+    }
+
+    #sicon {
+        cursor: pointer;
+        position: absolute;
+        color: white;
+        margin-top: 10px;
+        margin-left: 74%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #sicon:hover {
+        transition: 0.20s;
+        cursor: pointer;
+        position: absolute;
+        border-bottom: 8px dashed red;
+        /*background-color: whitesmoke;*/
+        /*border-radius: 100%;*/
+        margin-top: 8px;
+        margin-left: 74%;
+        width: 35px;
+        height: 35px;
+    }
+
+    #time {
+        position: absolute;
+        margin-left: 74%;
+        margin-top: 56px;
+        /*letter-spacing: 1px;*/
+        font-size: 24px;
+        color: white;
+    }
+
+    #name {
+        position: absolute;
+        /*letter-spacing: 2.5px;*/
+        font-size: 50px;
+        margin-left: calc(50% - 120px);
+        margin-top:8px;
+        color: white;
+    }
+
+    #date {
+        position: absolute;
+        margin-left: 18%;
+        margin-top: 56px;
+        /*letter-spacing: 1px;*/
+        font-size: 24px;
+        color: white;
+    }
+}
+
+/*media for 3840px*/
+@media all and (max-width:3840px) and (min-width: 2561px){
+    header {
+        width: 100%;
+        height: 100px;
+        background-color: black;
+    }
+
+    #wicon {
+        cursor: pointer;
+        position: absolute;
+        color: white;
+        margin-top: 10px;
+        margin-left: 75.1%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #wicon:hover {
+        transition: 0.20s;
+        cursor: pointer;
+        position: absolute;
+        border-bottom: 10px dashed red;
+        /*background-color: whitesmoke;*/
+        border-radius: 100%;
+        margin-top: 8px;
+        margin-left: 75.1%;
+        width: 35px;
+        height: 35px;
+    }
+
+    #sicon {
+        cursor: pointer;
+        position: absolute;
+        color: white;
+        margin-top: 10px;
+        margin-left: 74%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #sicon:hover {
+        transition: 0.20s;
+        cursor: pointer;
+        position: absolute;
+        border-bottom: 8px dashed red;
+        /*background-color: whitesmoke;*/
+        /*border-radius: 100%;*/
+        margin-top: 8px;
+        margin-left: 74%;
+        width: 35px;
+        height: 35px;
+    }
+
+    #time {
+        position: absolute;
+        margin-left: 74%;
+        margin-top: 56px;
+        /*letter-spacing: 1px;*/
+        font-size: 24px;
+        color: white;
+    }
+
+    #name {
+        position: absolute;
+        /*letter-spacing: 2.5px;*/
+        font-size: 36px;
+        margin-left: calc(50% - 100px);
+        margin-top: -3px;
+        color: white;
+    }
+
+    #date {
+        position: absolute;
+        margin-left: 18%;
+        margin-top: 56px;
+        /*letter-spacing: 1px;*/
+        font-size: 24px;
+        color: white;
+    }
+}
+
+/*media for 3840px*/
+@media all and (min-width: 3841px){
+    header {
+        width: 100%;
+        height: 100px;
+        background-color: black;
+    }
+
+    #wicon {
+        cursor: pointer;
+        position: absolute;
+        color: white;
+        margin-top: 10px;
+        margin-left: 74.9%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #wicon:hover {
+        transition: 0.20s;
+        cursor: pointer;
+        position: absolute;
+        border-bottom: 10px dashed red;
+        /*background-color: whitesmoke;*/
+        border-radius: 100%;
+        margin-top: 8px;
+        margin-left: 74.9%;
+        width: 35px;
+        height: 35px;
+    }
+
+    #sicon {
+        cursor: pointer;
+        position: absolute;
+        color: white;
+        margin-top: 10px;
+        margin-left: 74%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #sicon:hover {
+        transition: 0.20s;
+        cursor: pointer;
+        position: absolute;
+        border-bottom: 8px dashed red;
+        /*background-color: whitesmoke;*/
+        /*border-radius: 100%;*/
+        margin-top: 8px;
+        margin-left: 74%;
+        width: 35px;
+        height: 35px;
+    }
+
+    #time {
+        position: absolute;
+        margin-left: 74%;
+        margin-top: 56px;
+        /*letter-spacing: 1px;*/
+        font-size: 24px;
+        color: white;
+    }
+
+    #name {
+        position: absolute;
+        /*letter-spacing: 2.5px;*/
+        font-size: 36px;
+        margin-left: calc(50% - 100px);
+        margin-top: -3px;
+        color: white;
+    }
+
+    #date {
+        position: absolute;
+        margin-left: 18%;
+        margin-top: 56px;
+        /*letter-spacing: 1px;*/
+        font-size: 24px;
+        color: white;
+    }
+}

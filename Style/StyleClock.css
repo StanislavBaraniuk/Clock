@@ -1,0 +1,1264 @@
+/*media for 320px*/
+@media all and (max-width: 320px){
+    body {
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        /*background-image: url("../2.jpg");*/
+        font-family: "Roboto Black";
+    }
+
+    .letter {
+        cursor: default;
+        margin-left: 10px;
+        margin-top: -30px;
+        font-size: 70px;
+        /*float: left;*/
+        display: block;
+        width: 70px;
+        height: 40px;
+        transition: 0.5s;
+        /*border: 2px solid antiquewhite;*/
+        /*position: absolute;*/
+    }
+
+    #LetterBlock {
+        position: absolute;
+        /*border: 2px solid black;*/
+        width: 100px;
+        height: 100px;
+        margin-top: 10%;
+        margin-left: 3.5%;
+    }
+
+    #watch {
+        width: 80% !important;
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 20%;
+    }
+
+    #uptime {
+        width: 50px;
+        cursor: pointer;
+        position: absolute;
+        margin-top: 370px;
+        margin-left: 45%;
+        transition: 0.5s;
+    }
+
+    #uptime:hover {
+        width: 50px;
+        background-color: whitesmoke;
+        cursor: pointer;
+        border-radius: 100% 100% 0 0;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        position: absolute;
+        margin-top: 370px;
+        margin-left: 45%;
+        border: 1px solid whitesmoke;
+    }
+
+    #downtime {
+        width: 50px;
+        transition: 0.5s;
+        cursor: pointer;
+        position: absolute;
+        margin-top: 370px;
+        margin-left: 59%;
+    }
+
+    #downtime:hover {
+        width: 50px;
+        background-color: whitesmoke;
+        cursor: pointer;
+        border-radius: 0 0 100% 100% ;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        position: absolute;
+        margin-top: 370px;
+        margin-left: 59%;
+        border: 1px solid whitesmoke;
+    }
+
+    #hour {
+        width: 8% !important;
+        transition: 1s;
+        position: absolute;
+        margin-top: 155px;
+        margin-left: 56%;
+    }
+
+    #min {
+        width: 10% !important;
+        transition: 0.5s;
+        position: absolute;
+        margin-top: 140px;
+        margin-left: 55.2%;
+    }
+
+    #sec {
+        width: 7.5%;
+        transition: 0.5s;
+        position: absolute;
+        margin-top: 138px;
+        margin-left: 56.3%;
+    }
+
+    #wh {
+        font-size: 24px;
+        position: absolute;
+        margin-top: 450px;
+        margin-left:45%;
+    }
+
+    #letterI {
+        margin-left: 20px;
+    }
+
+    #letterT {
+        margin-left: 20px;
+    }
+}
+
+/*media for 480px*/
+@media all and (max-width: 480px) and (min-width: 321px){
+    body {
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        /*background-image: url("../2.jpg");*/
+        font-family: "Roboto Black";
+    }
+
+    .letter {
+        cursor: default;
+        margin-left: 10px;
+        margin-top: -30px;
+        font-size: 110px;
+        /*float: left;*/
+        display: block;
+        width: 70px;
+        height: 40px;
+        transition: 0.5s;
+        /*border: 2px solid antiquewhite;*/
+        /*position: absolute;*/
+    }
+
+    #LetterBlock {
+        position: absolute;
+        /*border: 2px solid black;*/
+        width: 100px;
+        height: 100px;
+        margin-top: 2%;
+        margin-left: 3.5%;
+    }
+
+    #watch {
+        width: 80% !important;
+        position: absolute;
+        margin-top: 118px;
+        margin-left: 20%;
+    }
+
+    #uptime {
+        width: 50px; height: 100px;
+        cursor: pointer;
+        position: absolute;
+        margin-top: 550px;
+        margin-left: 42%;
+        transition: 0.5s;
+    }
+
+    #uptime:hover {
+        width: 50px; height: 100px;
+        background-color: whitesmoke;
+        cursor: pointer;
+        border-radius: 100% 100% 0 0;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        position: absolute;
+        margin-top: 550px;
+        margin-left: 42%;
+        border: 1px solid whitesmoke;
+    }
+
+    #downtime {
+        width: 50px; height: 100px;
+        transition: 0.5s;
+        cursor: pointer;
+        position: absolute;
+        margin-top: 550px;
+        margin-left: 65.6%;
+    }
+
+    #downtime:hover {
+        width: 50px; height: 100px;
+        background-color: whitesmoke;
+        cursor: pointer;
+        border-radius: 0 0 100% 100% ;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        position: absolute;
+        margin-top: 550px;
+        margin-left: 65.6%;
+        border: 1px solid whitesmoke;
+    }
+
+    #hour {
+        width: 8% !important;
+        transition: 1s;
+        position: absolute;
+        margin-top: 315px;
+        margin-left: 56%;
+    }
+
+    #min {
+        width: 10% !important;
+        transition: 0.5s;
+        position: absolute;
+        margin-top: 290px;
+        margin-left: 55.2%;
+    }
+
+    #sec {
+        width: 8%;
+        transition: 0.5s;
+        position: absolute;
+        margin-top: 285px;
+        margin-left: 55.8%;
+    }
+
+    #wh {
+        color: white;
+        font-size: 24px;
+        position: absolute;
+        margin-top: 580px;
+        margin-left:57%;
+    }
+
+    #letterI {
+        margin-left: 25px;
+    }
+
+    #letterT {
+        /*margin-left: -20px;*/
+    }
+}
+
+
+/*media for 540px*/
+@media all and (max-width: 540px) and (min-width: 481px){
+    body {
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        /*background-image: url("../2.jpg");*/
+        font-family: "Roboto Black";
+    }
+
+    .letter {
+        cursor: default;
+        margin-left: 10px;
+        margin-top: -30px;
+        font-size: 110px;
+        /*float: left;*/
+        display: inline-block;
+        width: 70px;
+        height: 40px;
+        transition: 0.5s;
+        /*border: 2px solid antiquewhite;*/
+        /*position: absolute;*/
+    }
+
+    #LetterBlock {
+        position: absolute;
+        /*border: 2px solid black;*/
+        width: 520px;
+        height: 100px;
+        margin-top: 2%;
+        margin-left: 3.5%;
+    }
+
+    #watch {
+        width: 60% !important;
+        position: absolute;
+        margin-top: 120px;
+        margin-left: 0;
+    }
+
+    #uptime {
+        width: 50px; height: 100px;
+        cursor: pointer;
+        position: absolute;
+        margin-top: 240px;
+        margin-left: 73.4%;
+        transition: 0.5s;
+    }
+
+    #uptime:hover {
+        width: 50px; height: 100px;
+        background-color: whitesmoke;
+        cursor: pointer;
+        border-radius: 100% 100% 0 0;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        position: absolute;
+        margin-top: 240px;
+        margin-left: 73.4%;
+        border: 1px solid whitesmoke;
+    }
+
+    #downtime {
+        width: 50px; height: 100px;
+        transition: 0.5s;
+        cursor: pointer;
+        position: absolute;
+        margin-top: 395px;
+        margin-left: 73.4%;
+    }
+
+    #downtime:hover {
+        width: 50px; height: 100px;
+        background-color: whitesmoke;
+        cursor: pointer;
+        border-radius: 0 0 100% 100% ;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        position: absolute;
+        margin-top: 395px;
+        margin-left: 73.4%;
+        border: 1px solid whitesmoke;
+    }
+
+    #hour {
+        width: 6% !important;
+        transition: 1s;
+        position: absolute;
+        margin-top: 285px;
+        margin-left: 27%;
+    }
+
+    #min {
+        width: 8% !important;
+        transition: 0.5s;
+        position: absolute;
+        margin-top: 260px;
+        margin-left: 25.8%;
+    }
+
+    #sec {
+        width: 5.7%;
+        transition: 0.5s;
+        position: absolute;
+        margin-top: 262px;
+        margin-left: 27%;
+    }
+
+    #wh {
+        font-size: 24px;
+        position: absolute;
+        margin-top: 350px;
+        margin-left: 75%;
+    }
+
+    #letterI {
+        margin-left: 25px;
+    }
+
+    #letterT {
+        /*margin-left: -20px;*/
+    }
+}
+
+/*media for 640px*/
+@media all and (max-width: 640px) and (min-width: 541px){
+    body {
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        /*background-image: url("../2.jpg");*/
+        font-family: "Roboto Black";
+    }
+
+    .letter {
+        cursor: default;
+        margin-left: 10px;
+        margin-top: -30px;
+        font-size: 110px;
+        /*float: left;*/
+        display: inline-block;
+        width: 70px;
+        height: 40px;
+        transition: 0.5s;
+        /*border: 2px solid antiquewhite;*/
+        /*position: absolute;*/
+    }
+
+    #LetterBlock {
+        position: absolute;
+        /*border: 2px solid black;*/
+        width: 550px;
+        height: 100px;
+        margin-top: 2%;
+        margin-left: 14%;
+    }
+
+    #watch {
+        width: 60% !important;
+        position: absolute;
+        margin-top: 120px;
+        margin-left: 0;
+    }
+
+    #uptime {
+        width: 50px; height: 100px;
+        cursor: pointer;
+        position: absolute;
+        margin-top: 240px;
+        margin-left: 73.4%;
+        transition: 0.5s;
+    }
+
+    #uptime:hover {
+        width: 50px; height: 100px;
+        background-color: whitesmoke;
+        cursor: pointer;
+        border-radius: 100% 100% 0 0;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        position: absolute;
+        margin-top: 240px;
+        margin-left: 73.4%;
+        border: 1px solid whitesmoke;
+    }
+
+    #downtime {
+        width: 50px; height: 100px;
+        transition: 0.5s;
+        cursor: pointer;
+        position: absolute;
+        margin-top: 395px;
+        margin-left: 73.4%;
+    }
+
+    #downtime:hover {
+        width: 50px; height: 100px;
+        background-color: whitesmoke;
+        cursor: pointer;
+        border-radius: 0 0 100% 100% ;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        position: absolute;
+        margin-top: 395px;
+        margin-left: 73.4%;
+        border: 1px solid whitesmoke;
+    }
+
+    #hour {
+        width: 6% !important;
+        transition: 1s;
+        position: absolute;
+        margin-top: 320px;
+        margin-left: 27%;
+    }
+
+    #min {
+        width: 8% !important;
+        transition: 0.5s;
+        position: absolute;
+        margin-top: 287px;
+        margin-left: 25.8%;
+    }
+
+    #sec {
+        width: 5.8%;
+        transition: 0.5s;
+        position: absolute;
+        margin-top: 290px;
+        margin-left: 27%;
+    }
+
+    #wh {
+        font-size: 24px;
+        position: absolute;
+        margin-top: 350px;
+        margin-left: 75%;
+    }
+
+    #letterI {
+        margin-left: 25px;
+    }
+
+    #letterT {
+        /*margin-left: -20px;*/
+    }
+}
+
+/*media for 800px*/
+@media all and (max-width: 800px) and (min-width: 641px){
+    body {
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        /*background-image: url("../2.jpg");*/
+        font-family: "Roboto Black";
+    }
+
+    .letter {
+        cursor: default;
+        margin-left: 10px;
+        margin-top: -30px;
+        font-size: 110px;
+        /*float: left;*/
+        display: inline-block;
+        width: 70px;
+        height: 40px;
+        transition: 0.5s;
+        /*border: 2px solid antiquewhite;*/
+        /*position: absolute;*/
+    }
+
+    #LetterBlock {
+        position: absolute;
+        /*border: 2px solid black;*/
+        width: 550px;
+        height: 100px;
+        margin-top: 3%;
+        margin-left: 19.5%;
+    }
+
+    #watch {
+        position: absolute;
+        margin-top: 150px;
+        margin-left: 34.5%;
+    }
+
+    #uptime {
+        width: 40px;
+        /*height: 100px;*/
+        cursor: pointer;
+        position: absolute;
+        margin-top: 490px;
+        margin-left: 42.5%;
+        transition: 0.5s;
+    }
+
+    #uptime:hover {
+        width: 40px;
+        background-color: whitesmoke;
+        cursor: pointer;
+        border-radius: 100% 100% 0 0;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        position: absolute;
+        margin-top: 490px;
+        margin-left: 42.5%;
+        border: 1px solid whitesmoke;
+    }
+
+    #downtime {
+        width: 40px;
+        transition: 0.5s;
+        cursor: pointer;
+        position: absolute;
+        margin-top: 490px;
+        margin-left: 52.5%;
+    }
+
+    #downtime:hover {
+        width: 40px;
+        background-color: whitesmoke;
+        cursor: pointer;
+        border-radius: 0 0 100% 100% ;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        position: absolute;
+        margin-top: 490px;
+        margin-left: 52.5%;
+        border: 1px solid whitesmoke;
+    }
+
+    #hour {
+        transition: 1s;
+        position: absolute;
+        margin-top: 279px;
+        margin-left: 48.5%;
+    }
+
+    #min {
+        transition: 0.5s;
+        position: absolute;
+        margin-top: 265px;
+        margin-left: 48.2%;
+    }
+
+    #sec {
+        width: 2.5%;
+        transition: 0.5s;
+        position: absolute;
+        margin-top: 270px;
+        margin-left: 48.8%;
+    }
+
+    #wh {
+        font-size: 24px;
+        position: absolute;
+        margin-top: 500px;
+        margin-left: 48.5%;
+    }
+
+    #letterI {
+        margin-left: 25px;
+    }
+
+    #letterT {
+        /*margin-left: -20px;*/
+    }
+}
+
+
+/*media for 1024px*/
+@media all and (max-width: 1024px) and (min-width: 801px){
+    body {
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        /*background-image: url("../2.jpg");*/
+        font-family: "Roboto Black";
+    }
+
+    .letter {
+        cursor: default;
+        margin-left: 10px;
+        margin-top: -30px;
+        font-size: 110px;
+        /*float: left;*/
+        display: inline-block;
+        width: 70px;
+        height: 40px;
+        transition: 0.5s;
+        /*border: 2px solid antiquewhite;*/
+        /*position: absolute;*/
+    }
+
+    #LetterBlock {
+        position: absolute;
+        /*border: 2px solid black;*/
+        width: 550px;
+        height: 100px;
+        margin-top: 3%;
+        margin-left: 27%;
+    }
+
+    #watch {
+        position: absolute;
+        margin-top: 150px;
+        margin-left: 35%;
+    }
+
+    #uptime {
+        width: 50px; height: 100px;
+        cursor: pointer;
+        position: absolute;
+        margin-top: 600px;
+        margin-left: 43%;
+        transition: 0.5s;
+    }
+
+    #uptime:hover {
+        width: 50px; height: 100px;
+        background-color: whitesmoke;
+        cursor: pointer;
+        border-radius: 100% 100% 0 0;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        position: absolute;
+        margin-top: 600px;
+        margin-left: 43%;
+        border: 1px solid whitesmoke;
+    }
+
+    #downtime {
+        width: 50px; height: 100px;
+        transition: 0.5s;
+        cursor: pointer;
+        position: absolute;
+        margin-top: 600px;
+        margin-left: 53%;
+    }
+
+    #downtime:hover {
+        width: 50px; height: 100px;
+        background-color: whitesmoke;
+        cursor: pointer;
+        border-radius: 0 0 100% 100% ;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        position: absolute;
+        margin-top: 600px;
+        margin-left: 53%;
+        border: 1px solid whitesmoke;
+    }
+
+    #hour {
+        transition: 1s;
+        position: absolute;
+        margin-top: 313px;
+        margin-left: 49%;
+    }
+
+    #min {
+        transition: 0.5s;
+        position: absolute;
+        margin-top: 295px;
+        margin-left: 48.7%;
+    }
+
+    #sec {
+        transition: 0.5s;
+        position: absolute;
+        margin-top: 300px;
+        margin-left: 49.2%;
+    }
+
+    #wh {
+        font-size: 24px;
+        position: absolute;
+        margin-top: 630px;
+        margin-left: 49%;
+    }
+
+    #letterI {
+        margin-left: 25px;
+    }
+
+    #letterT {
+        /*margin-left: -20px;*/
+    }
+}
+
+
+/*media for 1280px*/
+@media all and (max-width: 1280px) and (min-width: 1025px){
+    body {
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        /*background-image: url("../2.jpg");*/
+        font-family: "Roboto Black";
+    }
+
+    .letter {
+        cursor: default;
+        margin-left: 10px;
+        margin-top: -30px;
+        font-size: 110px;
+        /*float: left;*/
+        display: block;
+        width: 70px;
+        height: 40px;
+        transition: 0.5s;
+        /*border: 2px solid antiquewhite;*/
+        /*position: absolute;*/
+    }
+
+    #LetterBlock {
+        position: absolute;
+        /*border: 2px solid black;*/
+        width: 500px;
+        height: 100px;
+        margin-top: 1%;
+        margin-left: 18%;
+    }
+
+    #watch {
+        position: absolute;
+        margin-top: 95px;
+        margin-left: 35%;
+    }
+
+    #uptime {
+        width: 50px; height: 100px;
+        cursor: pointer;
+        position: absolute;
+        margin-top: 230px;
+        margin-left: 74.5%;
+        transition: 0.5s;
+    }
+
+    #uptime:hover {
+        width: 50px; height: 100px;
+        background-color: whitesmoke;
+        cursor: pointer;
+        border-radius: 100% 100% 0 0;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        position: absolute;
+        margin-top: 230px;
+        margin-left: 74.5%;
+        border: 1px solid whitesmoke;
+    }
+
+    #downtime {
+        width: 50px; height: 100px;
+        transition: 0.5s;
+        cursor: pointer;
+        position: absolute;
+        margin-top: 385px;
+        margin-left: 74.5%;
+    }
+
+    #downtime:hover {
+        width: 50px; height: 100px;
+        background-color: whitesmoke;
+        cursor: pointer;
+        border-radius: 0 0 100% 100% ;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        position: absolute;
+        margin-top: 385px;
+        margin-left: 74.5%;
+        border: 1px solid whitesmoke;
+    }
+
+    #hour {
+        transition: 1s;
+        position: absolute;
+        margin-top: 302px;
+        margin-left: 49%;
+    }
+
+    #min {
+        transition: 0.5s;
+        position: absolute;
+        margin-top: 275px;
+        margin-left: 48.7%;
+    }
+
+    #sec {
+        transition: 0.5s;
+        position: absolute;
+        margin-top: 275px;
+        margin-left: 49.1%;
+    }
+
+    #wh {
+        font-size: 24px;
+        position: absolute;
+        margin-top: 340px;
+        margin-left: 75.2%;
+    }
+
+    #letterI {
+        margin-left: 25px;
+    }
+
+    #letterT {
+        margin-left: 20px;
+    }
+
+}
+
+/*media for 1680px*/
+@media all and (max-width: 1680px) and (min-width: 1281px){
+    body {
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        /*background-image: url("../2.jpg");*/
+        font-family: "Roboto Black";
+    }
+
+    .letter {
+        cursor: default;
+        margin-left: 10px;
+        margin-top: -30px;
+        font-size: 110px;
+        /*float: left;*/
+        display: block;
+        width: 70px;
+        height: 40px;
+        transition: 0.5s;
+        /*border: 2px solid antiquewhite;*/
+        /*position: absolute;*/
+    }
+
+    #LetterBlock {
+        position: absolute;
+        /*border: 2px solid black;*/
+        width: 500px;
+        height: 100px;
+        margin-top: 1%;
+        margin-left: 18%;
+    }
+
+    #watch {
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 35%;
+    }
+
+    #uptime {
+        width: 50px; height: 100px;
+        cursor: pointer;
+        position: absolute;
+        margin-top: 290px;
+        margin-left: 74.5%;
+        transition: 0.5s;
+    }
+
+    #uptime:hover {
+        width: 50px; height: 100px;
+        background-color: whitesmoke;
+        cursor: pointer;
+        border-radius: 100% 100% 0 0;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        position: absolute;
+        margin-top: 290px;
+        margin-left: 74.5%;
+        border: 1px solid whitesmoke;
+    }
+
+    #downtime {
+        width: 50px; height: 100px;
+        transition: 0.5s;
+        cursor: pointer;
+        position: absolute;
+        margin-top: 445px;
+        margin-left: 74.5%;
+    }
+
+    #downtime:hover {
+        width: 50px; height: 100px;
+        background-color: whitesmoke;
+        cursor: pointer;
+        border-radius: 0 0 100% 100% ;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        position: absolute;
+        margin-top: 445px;
+        margin-left: 74.5%;
+        border: 1px solid whitesmoke;
+    }
+
+    #hour {
+        transition: 1s;
+        position: absolute;
+        margin-top: 292px;
+        margin-left: 49%;
+    }
+
+    /*#hour:hover {*/
+    /*transition: 10s;*/
+    /*cursor: pointer;*/
+    /*!*transform: rotate(360deg);*!*/
+    /*transform-origin: 80.5% 75%;*/
+    /*}*/
+
+    #min {
+        transition: 0.5s;
+        position: absolute;
+        margin-top: 265px;
+        margin-left: 48.7%;
+    }
+
+    #sec {
+        transition: 0.5s;
+        position: absolute;
+        margin-top: 265px;
+        margin-left: 49.1%;
+    }
+
+    #wh {
+        font-size: 24px;
+        position: absolute;
+        margin-top: 400px;
+        margin-left: 75.2%;
+    }
+
+    #letterI {
+        margin-left: 25px;
+    }
+
+    #letterT {
+        margin-left: 20px;
+    }
+}
+
+
+/*media for 1920px*/
+@media all and (max-width: 1920px) and (min-width: 1681px){
+    body {
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        /*background-image: url("../2.jpg");*/
+        font-family: "Roboto Black";
+    }
+
+    /*#headerblock {*/
+    /*margin-left: calc(50% - 37%);*/
+    /*width: 75%;*/
+    /*height: 100px;*/
+    /*border: 2px solid aqua;*/
+    /*}*/
+
+    .letter {
+        cursor: pointer;
+        margin-left: 10px;
+        margin-top: -30px;
+        font-size: 110px;
+        /*float: left;*/
+        display: block;
+        width: 70px;
+        height: 40px;
+        transition: 0.5s;
+        /*border: 2px solid antiquewhite;*/
+        /*position: absolute;*/
+    }
+
+    #LetterBlock {
+        position: absolute;
+        /*border: 2px solid black;*/
+        width: 500px;
+        height: 100px;
+        margin-top: 3%;
+        margin-left: 28%;
+    }
+
+    #watch {
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 35%;
+    }
+
+    #uptime {
+        width: 50px; height: 100px;
+        cursor: pointer;
+        position: absolute;
+        margin-top: 290px;
+        margin-left: 68.4%;
+        transition: 0.5s;
+    }
+
+    #uptime:hover {
+        width: 50px; height: 100px;
+        background-color: whitesmoke;
+        cursor: pointer;
+        border-radius: 100% 100% 0 0;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        position: absolute;
+        margin-top: 290px;
+        margin-left: 68.4%;
+        border: 1px solid whitesmoke;
+    }
+
+    #downtime {
+        width: 50px; height: 100px;
+        transition: 0.5s;
+        cursor: pointer;
+        position: absolute;
+        margin-top: 445px;
+        margin-left: 68.4%;
+    }
+
+    #downtime:hover {
+        width: 50px; height: 100px;
+        background-color: whitesmoke;
+        cursor: pointer;
+        border-radius: 0 0 100% 100% ;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        position: absolute;
+        margin-top: 445px;
+        margin-left: 68.4%;
+        border: 1px solid whitesmoke;
+    }
+
+    #hour {
+        transition: 1s;
+        position: absolute;
+        margin-top: 325px;
+        margin-left: 49%;
+    }
+
+    /*#hour:hover {*/
+    /*transition: 10s;*/
+    /*cursor: pointer;*/
+    /*!*transform: rotate(360deg);*!*/
+    /*transform-origin: 80.5% 75%;*/
+    /*}*/
+
+    #min {
+        transition: 0.5s;
+        position: absolute;
+        margin-top: 290px;
+        margin-left: 48.7%;
+    }
+
+    #sec {
+        transition: 0.5s;
+        position: absolute;
+        margin-top: 290px;
+        margin-left: 49.1%;
+    }
+
+    #wh {
+        font-size: 24px;
+        position: absolute;
+        margin-top: 400px;
+        margin-left: 69%;
+    }
+
+
+    #letterI {
+        margin-left: 25px;
+    }
+
+    #letterT {
+        margin-left: 20px;
+    }
+}
+
+/*media for 2560px*/
+@media all and (max-width: 2560px) and (min-width: 1921px){
+    body {
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        /*background-image: url("../2.jpg");*/
+        font-family: "Roboto Black";
+    }
+
+    .letter {
+        cursor: default;
+        margin-left: 10px;
+        margin-top: -30px;
+        font-size: 180px;
+        /*float: left;*/
+        display: block;
+        width: 70px;
+        height: 40px;
+        transition: 0.5s;
+        /*border: 2px solid antiquewhite;*/
+        /*position: absolute;*/
+    }
+
+    #LetterBlock {
+        position: absolute;
+        /*border: 2px solid black;*/
+        width: 500px;
+        height: 100px;
+        margin-top: 2%;
+        margin-left: 18%;
+    }
+
+    #watch {
+        position: absolute;
+        margin-top:3.5%;
+        margin-left: 33.3%;
+    }
+
+    #uptime {
+        width: 100px;
+        cursor: pointer;
+        position: absolute;
+        margin-top: 430px;
+        margin-left: 72%;
+        transition: 0.5s;
+    }
+
+    #uptime:hover {
+        width: 100px;
+        background-color: whitesmoke;
+        cursor: pointer;
+        border-radius: 100% 100% 0 0;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        position: absolute;
+        margin-top: 430px;
+        margin-left: 72%;
+        border: 1px solid whitesmoke;
+    }
+
+    #downtime {
+        width: 100px;
+        transition: 0.5s;
+        cursor: pointer;
+        position: absolute;
+        margin-top: 650px;
+        margin-left: 72%;
+    }
+
+    #downtime:hover {
+        width: 100px;
+        background-color: whitesmoke;
+        cursor: pointer;
+        border-radius: 0 0 100% 100% ;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        position: absolute;
+        margin-top: 650px;
+        margin-left: 72%;
+        border: 1px solid whitesmoke;
+    }
+
+    #hour {
+        transition: 1s;
+        position: absolute;
+        margin-top: 500px;
+        margin-left: 47.2%;
+    }
+
+    /*#hour:hover {*/
+    /*transition: 10s;*/
+    /*cursor: pointer;*/
+    /*!*transform: rotate(360deg);*!*/
+    /*transform-origin: 80.5% 75%;*/
+    /*}*/
+
+    #min {
+        transition: 0.5s;
+        position: absolute;
+        margin-top: 455px;
+        margin-left: 47%;
+    }
+
+    #sec {
+        width: 3%;
+        transition: 0.5s;
+        position: absolute;
+        margin-top: 440px;
+        margin-left: 47.3%;
+    }
+
+    #wh {
+        font-size: 50px;
+        position: absolute;
+        margin-top: 575px;
+        margin-left: 72.7%;
+    }
+
+
+    #letterI {
+        margin-left: 35px;
+    }
+
+    #letterT {
+        margin-left: 30px;
+    }
+}
+
+/*media for 3840px*/
+@media all and (max-width:3840px) and (min-width: 2561px){
+
+}
+
+/*media for 3840px*/
+@media all and (min-width: 3841px){
+
+}

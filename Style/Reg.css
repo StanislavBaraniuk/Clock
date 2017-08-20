@@ -1,0 +1,459 @@
+
+body {
+    background-image: url("https://unsplash.it/1920/1080?random");
+    /*background-size: cover;*/
+}
+#RegForm {
+    /*background-color: white;*/
+    position: absolute;
+    width: 500px;
+    height: 190px;
+    background-color: rgba(256, 256, 256, 0.8);
+    /*border: 2px solid black;*/
+    margin-top: 150px;
+    margin-left: calc(50% - 250px);
+}
+
+#RegH {
+    /*margin-top: ;*/
+    margin-left: calc(50% - 55px);
+}
+
+#RegName {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    width: 250px;
+    height: 20px;
+    margin-left: 25%;
+    transition: 0.5s;
+}
+
+#RegName:focus {
+    outline: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 2px solid red;
+    width: 250px;
+    height: 20px;
+    margin-left: 25%;
+}
+
+#RegPas {
+    background-color: transparent;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 2px solid black;
+    margin-top: 10px;
+    width: 250px;
+    height: 20px;
+    margin-left: 25%;
+}
+
+#RegPas:focus {
+    outline: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 2px solid red;
+    margin-top: 10px;
+    width: 250px;
+    height: 20px;
+    margin-left: 25%;
+}
+
+#RegBut {
+    cursor: pointer;
+    outline: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 2px solid #2b669a;
+    background-color: transparent;
+    margin-top: 20px;
+    color: black;
+    width: 70px;
+    height: 20px;
+    margin-left: 25%;
+}
+
+#ifac {
+    font-size: 12px;
+    margin-left: 42.5%;
+    margin-top: -20px;
+}
+
+#ifacClick {
+    color: #2b669a;
+    cursor: pointer;
+}
+
+#SignForm {
+    background-color: rgba(256, 256, 256, 0.8);
+}
+
+.SignFormDis {
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.SignFormAct {
+    position: absolute;
+    width: 500px;
+    height: 190px;
+    background-color: rgba(256, 256, 256, 0.8);
+    /*border: 2px solid black;*/
+    margin-top: 150px;
+    margin-left: calc(50% - 250px);
+    visibility: visible;
+}
+
+#SignH {
+    margin-left: calc(50% - 40px);
+}
+
+#SignName {
+    background-color: transparent;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 2px solid black;
+    width: 250px;
+    height: 20px;
+    margin-left: 25%;
+    transition: 0.5s;
+}
+
+#SignName:focus {
+    outline: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 2px solid red;
+    width: 250px;
+    height: 20px;
+    margin-left: 25%;
+}
+
+#SignPas {
+    background-color: transparent;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 2px solid black;
+    margin-top: 10px;
+    width: 250px;
+    height: 20px;
+    margin-left: 25%;
+}
+
+#SignPas:focus {
+    outline: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 2px solid red;
+    margin-top: 10px;
+    width: 250px;
+    height: 20px;
+    margin-left: 25%;
+}
+
+#SignBut {
+    cursor: pointer;
+    outline: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 2px solid #2b669a;
+    background-color: transparent;
+    /*border-radius: 100%;*/
+    margin-top: 20px;
+    width: 70px;
+    height: 20px;
+    margin-left: 25%;
+}
+
+#Prev {
+    transition: 0.2s;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 32%;
+    width: 15px;
+    height: 30px;
+    /*transition: 0s;*/
+}
+
+#Prev:hover {
+    cursor: pointer;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 31.5%;
+    width: 20px;
+    height: 30px;
+}
+
+
+/*media for 480px*/
+@media all and (max-width: 480px){
+
+}
+
+
+/*media for 540px*/
+@media all and (max-width: 540px) and (min-width: 481px){
+
+}
+
+/*media for 640px*/
+@media all and (max-width: 640px) and (min-width: 541px){
+
+}
+
+/*media for 800px*/
+@media all and (max-width: 800px) and (min-width: 641px){
+
+}
+
+
+/*media for 1024px*/
+@media all and (max-width: 1024px) and (min-width: 801px){
+
+}
+
+
+/*media for 1280px*/
+@media all and (max-width: 1280px) and (min-width: 1025px){
+
+}
+
+/*media for 1680px*/
+@media all and (max-width: 1680px) and (min-width: 1281px){
+
+}
+
+
+/*media for 1920px*/
+@media all and (max-width: 1920px) and (min-width: 1681px){
+
+    body {
+        background-image: url("https://unsplash.it/1920/1080?random");
+        /*background-size: cover;*/
+    }
+    #RegForm {
+        /*background-color: white;*/
+        position: absolute;
+        width: 500px;
+        height: 190px;
+        background-color: rgba(256, 256, 256, 0.8);
+        /*border: 2px solid black;*/
+        margin-top: 150px;
+        margin-left: calc(50% - 250px);
+    }
+
+    #RegH {
+        /*margin-top: ;*/
+        margin-left: calc(50% - 55px);
+    }
+
+    #RegName {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom: 2px solid black;
+        background-color: transparent;
+        width: 250px;
+        height: 20px;
+        margin-left: 25%;
+        transition: 0.5s;
+    }
+
+    #RegName:focus {
+        outline: none;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom: 2px solid red;
+        width: 250px;
+        height: 20px;
+        margin-left: 25%;
+    }
+
+    #RegPas {
+        background-color: transparent;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom: 2px solid black;
+        margin-top: 10px;
+        width: 250px;
+        height: 20px;
+        margin-left: 25%;
+    }
+
+    #RegPas:focus {
+        outline: none;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom: 2px solid red;
+        margin-top: 10px;
+        width: 250px;
+        height: 20px;
+        margin-left: 25%;
+    }
+
+    #RegBut {
+        cursor: pointer;
+        outline: none;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom: 2px solid #2b669a;
+        background-color: transparent;
+        margin-top: 20px;
+        color: black;
+        width: 70px;
+        height: 20px;
+        margin-left: 25%;
+    }
+
+    #ifac {
+        font-size: 12px;
+        margin-left: 42.5%;
+        margin-top: -20px;
+    }
+
+    #ifacClick {
+        color: #2b669a;
+        cursor: pointer;
+    }
+
+    #SignForm {
+        background-color: rgba(256, 256, 256, 0.8);
+    }
+
+    .SignFormDis {
+        height: 0;
+        overflow: hidden;
+        visibility: hidden;
+    }
+
+    .SignFormAct {
+        position: absolute;
+        width: 500px;
+        height: 190px;
+        background-color: rgba(256, 256, 256, 0.8);
+        /*border: 2px solid black;*/
+        margin-top: 150px;
+        margin-left: calc(50% - 250px);
+        visibility: visible;
+    }
+
+    #SignH {
+        margin-left: calc(50% - 40px);
+    }
+
+    #SignName {
+        background-color: transparent;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom: 2px solid black;
+        width: 250px;
+        height: 20px;
+        margin-left: 25%;
+        transition: 0.5s;
+    }
+
+    #SignName:focus {
+        outline: none;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom: 2px solid red;
+        width: 250px;
+        height: 20px;
+        margin-left: 25%;
+    }
+
+    #SignPas {
+        background-color: transparent;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom: 2px solid black;
+        margin-top: 10px;
+        width: 250px;
+        height: 20px;
+        margin-left: 25%;
+    }
+
+    #SignPas:focus {
+        outline: none;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom: 2px solid red;
+        margin-top: 10px;
+        width: 250px;
+        height: 20px;
+        margin-left: 25%;
+    }
+
+    #SignBut {
+        cursor: pointer;
+        outline: none;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom: 2px solid #2b669a;
+        background-color: transparent;
+        /*border-radius: 100%;*/
+        margin-top: 20px;
+        width: 70px;
+        height: 20px;
+        margin-left: 25%;
+    }
+
+    #Prev {
+        transition: 0.2s;
+        cursor: pointer;
+        position: absolute;
+        margin-top: 15px;
+        margin-left: 32%;
+        width: 15px;
+        height: 30px;
+        /*transition: 0s;*/
+    }
+
+    #Prev:hover {
+        cursor: pointer;
+        position: absolute;
+        margin-top: 15px;
+        margin-left: 31.5%;
+        width: 20px;
+        height: 30px;
+    }
+}
+
+/*media for 2560px*/
+@media all and (max-width: 2560px) and (min-width: 1921px){
+
+}
+
+/*media for 3840px*/
+@media all and (max-width:3840px) and (min-width: 2561px){
+
+}
+
+/*media for 3840px*/
+@media all and (min-width: 3841px){
+
+}

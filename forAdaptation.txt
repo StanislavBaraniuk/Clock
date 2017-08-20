@@ -1,0 +1,58 @@
+/*media for 480px*/
+@media all and (max-width: 480px){
+
+}
+
+
+/*media for 540px*/
+@media all and (max-width: 540px) and (min-width: 481px){
+
+}
+
+/*media for 640px*/
+@media all and (max-width: 640px) and (min-width: 541px){
+
+}
+
+/*media for 800px*/
+@media all and (max-width: 800px) and (min-width: 641px){
+
+}
+
+
+/*media for 1024px*/
+@media all and (max-width: 1024px) and (min-width: 801px){
+
+}
+
+
+/*media for 1280px*/
+@media all and (max-width: 1280px) and (min-width: 1025px){
+
+}
+
+/*media for 1680px*/
+@media all and (max-width: 1680px) and (min-width: 1281px){
+
+}
+
+
+/*media for 1920px*/
+@media all and (max-width: 1920px) and (min-width: 1681px){
+
+}
+
+/*media for 2560px*/
+@media all and (max-width: 2560px) and (min-width: 1921px){
+
+}
+
+/*media for 3840px*/
+@media all and (max-width:3840px) and (min-width: 2561px){
+
+}
+
+/*media for 3840px*/
+@media all and (min-width: 3841px){
+
+}

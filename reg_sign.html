@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TEMPUS |     Avtorisation</title>
+    <link  type="text/css" rel="stylesheet" href="Style/StyleClock.css">
+    <link  type="text/css" rel="stylesheet" href="Style/font.css">
+    <link  type="text/css" rel="stylesheet" href="Style/Reg.css">
+    <link  type="text/css" rel="stylesheet" href="Style/HeaderStyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/animate.css">
+
+    <script type="text/javascript" src="js/clock.js" rel="script"></script>
+    <script type="text/javascript" src="js/text.js" rel="script"></script>
+    <script type="text/javascript" src="js/reg_sign.js" rel="script"></script>
+</head>
+<body>
+<header onload="RegForm(this)">
+    <div class="container">
+        <div>
+            <div id="name" class="animated fadeIn" style="animation-delay: 0.5s;">tempus</div>
+            <div id="time" class="animated fadeInRight" style="animation-delay: 0.5s;" onclick="Time(this)">23:55</div>
+            <div id="date" class="animated fadeInLeft" style="animation-delay: 0.5s;">24.03.2017</div>
+            <img id="wicon" src="img/w.png" onclick="location.href='watch.html'" class="animated fadeInDown" style="animation-delay: 0.5s;">
+            <img id="sicon" src="img/s.png" onclick="location.href='account.html'" class="animated fadeInDown" style="animation-delay: 0.5s;">
+        </div>
+    </div>
+</header>
+
+<section id="reg">
+    <form id="RegForm">
+        <h3 id="RegH">Registration</h3>
+        <input id="RegName" type="email" placeholder="                         EMAIL">
+        <input id="RegPas" type="password" placeholder="                    PASSWORD">
+        <input id="RegBut" type="submit" value="SEND">
+        <p id="ifac">If you have account <span id="ifacClick" onclick="SignForm(this)"><u>click here</u></span></p>
+    </form>
+    <form id="SignForm" class="SignFormDis">
+        <h3 id="SignH">Sign Up</h3>
+        <input id="SignName" type="email" placeholder="                         EMAIL">
+        <input id="SignPas" type="password" placeholder="                    PASSWORD">
+        <input id="SignBut" type="submit" value="SEND">
+        <img id="Prev" src="img/Ssid.png" onclick="RegForm(this)">
+    </form>
+</section>
+
+<script src="jquery/jquery-3.2.0.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

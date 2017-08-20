@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TEMPUS</title>
+    <link  type="text/css" rel="stylesheet" href="Style/StyleClock.css">
+    <link  type="text/css" rel="stylesheet" href="Style/font.css">
+    <link  type="text/css" rel="stylesheet" href="Style/Reg.css">
+    <link  type="text/css" rel="stylesheet" href="Style/MenuStyle.css">
+    <link  type="text/css" rel="stylesheet" href="Style/HeaderStyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/animate.css">
+
+    <script type="text/javascript" src="js/clock.js" rel="script"></script>
+    <script type="text/javascript" src="js/menu.js" rel="script"></script>
+    <script type="text/javascript" src="js/text.js" rel="script"></script>
+    <script type="text/javascript" src="js/reg_sign.js" rel="script"></script>
+</head>
+<body onload="OnStart()">
+<header>
+    <div class="container">
+        <div>
+            <div id="name" class="animated fadeIn" style="animation-delay: 0.5s;">tempus</div>
+            <div id="time" class="animated fadeInRight" style="animation-delay: 0.5s;" onclick="Time(this)">23:55</div>
+            <div id="date" class="animated fadeInLeft" style="animation-delay: 0.5s;">24.03.2017</div>
+            <img id="wicon" src="img/w.png" onclick="location.href='watch.html'" class="animated fadeInDown" style="animation-delay: 0.5s;">
+            <img id="sicon" src="img/s.png" onclick="location.href='account.html'" class="animated fadeInDown" style="animation-delay: 0.5s;">
+        </div>
+    </div>
+</header>
+
+<section id="Menu">
+    <div id="MeinBlock">
+        <div id="AcMainBlock">
+            <div id="InfoBlock">
+                <div id="InfoAva">
+                    <div id="Avatar"></div>
+                    <p id="AvatarName">Stanislaw</p>
+                </div>
+                <div id="AcSet">
+                    <p id="AcSetP">Account's settings</p>
+                </div>
+            </div>
+            <div id="MMenu">
+                <div id="MMenuCom">
+                    <p id="ComP" onclick="CompletedBlock(this)">Completed</p>
+                </div>
+                <div id="MMenuProc">
+                    <p id="ProcP" onclick="ProcesBlock(this)">   In process</p>
+                    <p id="Ideas" onclick="IdeasBlock(this)">My ideas</p>
+                </div>
+            </div>
+        </div>
+        <div id="DownBlock">
+            <div id="MiniMenuBlock">
+                <div id="IFCreateNewEvent" class="IFCreateNewEventDes">
+                    <p id="NewEvenInscription">NEW EVENT</p>
+                    <textarea id="NewEventText" class="NewEventText" placeholder="Text is here..." onclick="TextAreaClick(this)"></textarea>
+
+                    <div id="DateTime">
+                        <input id="TimeC" type="time">
+                        <input id="Calendar" type="date">
+                    </div>
+                    <input id="NewEventBut" type="button" value="CREATE" onclick="CreateNewEvent(this)">
+                    <input id="UndoCreat" type="button" value="Undo" onclick="UndoCreate(this)">
+                </div>
+                <div id="NewEvent" class="NewEventAct">
+                    <p id="CreateText" class="mycursor">Create new event</p>
+                    <img id="Createimg" src="img/plus.png" style="width: 70px; height: 70px" onclick="CreateBut(this)">
+                </div>
+            </div>
+
+            <div id="TasksProces" class="TasksProcesAct ForTasksProces">
+
+                <div class="TaskBlockStanadart">
+                    <div class="TaskTextBlock">
+                        <p class="TaskText">Text will be here... Action</p>
+                    </div>
+                    <div class="DeleteBlock">
+                        <div class="DeleteImg" style="width: 25px; height: 25px" onmouseover="deleteTask(this)"></div>
+                        <!--<img class="StarImgY" src="img/starY.png" style="width: 25px; height: 25px">-->
+                    </div>
+                    <div class="TaskDate">
+                        <p class="TaskDateTime"></p>
+                        <img class="TaskDateimg" src="img/date.png" style="width: 25px; height: 25px">
+                        <p class="TaskDateNumb"></p>
+                        <img class="TaskClocimg" src="img/clock.png" style="width: 25px; height: 25px">
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="TasksComplet" class="TasksCompletDes ForTasksComled">
+
+                <div class="TaskBlock TaskInh">
+                    <div class="TaskTextBlock">
+                        <p class="TaskText">Text will be here... Desable</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="IdeasBlock" class="IdeasBlockDes ForIdeas">
+
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<script src="jquery/jquery-3.2.0.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

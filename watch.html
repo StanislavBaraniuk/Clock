@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TEMPUS | Sonuit</title>
+    <link  type="text/css" rel="stylesheet" href="Style/StyleClock.css">
+    <link  type="text/css" rel="stylesheet" href="Style/font.css">
+    <link  type="text/css" rel="stylesheet" href="Style/HeaderStyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/animate.css">
+</head>
+<body onload="OnStart()">
+<header>
+    <div class="container">
+        <div>
+                <div id="name" class="animated fadeIn" style="animation-delay: 0.5s;">tempus</div>
+                <div id="time" class="animated fadeInRight" style="animation-delay: 0.5s;"></div>
+                <div id="date" class="animated fadeInLeft" style="animation-delay: 0.5s;"></div>
+                <img id="wicon" src="img/w.png" onclick="location.href='watch.html'" class="animated fadeInDown" style="animation-delay: 0.5s;">
+                <img id="sicon" src="img/s.png" onclick="location.href='account.html'" class="animated fadeInDown" style="animation-delay: 0.5s;">
+        </div>
+    </div>
+</header>
+
+<section id="contents">
+    <div id="contecnb">
+        <div id="LetterBlock">
+            <p class="letter animated fadeIn" style="animation-delay: 0.8s;" id="letterS" onmouseover="onmouseoverletter(document.getElementById('letterS').innerHTML)" onmouseout="onmouseoutletter(document.getElementById('letterS').innerHTML)">s</p>
+            <p class="letter animated fadeIn" style="animation-delay: 1s;" id="letterO" onmouseover="onmouseoverletter(document.getElementById('letterO').innerHTML)" onmouseout="onmouseoutletter(document.getElementById('letterO').innerHTML)">o</p>
+            <p class="letter animated fadeIn" style="animation-delay: 1.2s;" id="letterN" onmouseover="onmouseoverletter(document.getElementById('letterN').innerHTML)" onmouseout="onmouseoutletter(document.getElementById('letterN').innerHTML)">n</p>
+            <p class="letter animated fadeIn" style="animation-delay: 1.4s;" id="letterU" onmouseover="onmouseoverletter(document.getElementById('letterU').innerHTML)" onmouseout="onmouseoutletter(document.getElementById('letterU').innerHTML)">u</p>
+            <p class="letter animated fadeIn" style="animation-delay: 1.6s;" id="letterI" onmouseover="onmouseoverletter(document.getElementById('letterI').innerHTML)" onmouseout="onmouseoutletter(document.getElementById('letterI').innerHTML)">i</p>
+            <p class="letter animated fadeIn" style="animation-delay: 1.8s;" id="letterT" onmouseover="onmouseoverletter(document.getElementById('letterT').innerHTML)" onmouseout="onmouseoutletter(document.getElementById('letterT').innerHTML)">t</p>
+        </div>
+        <div id="watchBlock">
+            <img id="watch" src="img/watch.png" style="width: 31.2%;">
+            <img id="hour" src="img/hour.png" style="width: 3.1%; ">
+            <img id="min" src="img/min.png" style="width: 3.7%; ">
+            <img id="sec" src="img/sec.png" style="@width: 2.6%; ">
+            <img id="uptime" src="img/up.png" style="@width: 50px; @height: 100px" class="pointer animated fadeInDown" style="animation-delay: 0.5s;" onclick="setWatchUp(this)">
+            <img id="downtime" src="img/down.png" style="@width: 50px; @height: 100px" class="pointer animated fadeInDown" style="animation-delay: 0.5s;" onclick="setWatchDown(this)">
+
+            <div id="wh" class="pointer animated fadeInDown" style="animation-delay: 0.25s;">00</div>
+        </div>
+
+    </div>
+</section>
+
+<script type="text/javascript" src="js/clock.js" rel="script"></script>
+<script type="text/javascript" src="js/text.js" rel="script"></script>
+<script src="jquery/jquery-3.2.0.min.js"></script>
+<!--<script src="http://code.jquery.com/jquery-latest.js"></script>-->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
